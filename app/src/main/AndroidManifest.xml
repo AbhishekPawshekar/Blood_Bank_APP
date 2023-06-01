@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blood_bank_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blood_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/blood_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Blood_bank_app">
+        <activity android:name=".data_ret"></activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/Theme.Blood_bank_app.NoActionBar" />
+        <activity android:name=".Blood_Gain" />
+        <activity android:name=".Blood_Donate" />
+        <activity android:name=".Discription" />
+        <activity
+            android:name=".main_page"
+            android:theme="@style/Theme.Blood_bank_app.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Blood_bank_app.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

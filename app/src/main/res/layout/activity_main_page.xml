@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageslider"
+                app:auto_cycle="true"
+                android:layout_marginTop="70dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/view1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignTop="@+id/imageslider"
+                    android:layout_marginTop="170dp"
+                    android:background="@drawable/background_main">
+                </View>
+
+
+            <ImageView
+                android:id="@+id/blood_request"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/view1"
+                android:src="@drawable/right_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/blood_request"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="serif"
+                android:text="Blood Request"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/blood_facts"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/blood_request"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/right_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/blood_facts"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="serif"
+                android:text="Blood Fact's"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+            <ImageView
+                android:id="@+id/contact_now"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/blood_facts"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/right_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/contact_now"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="serif"
+                android:text="Contact Now"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/blood_donate"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="70dp"
+                android:layout_alignTop="@+id/view1"
+                android:src="@drawable/left_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/blood_donate"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="serif"
+                android:text="Blood Donate"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+            <ImageView
+                android:id="@+id/blood_notification"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="110dp"
+                android:layout_alignTop="@+id/blood_donate"
+                android:src="@drawable/left_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/blood_notification"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="serif"
+                android:text="Notification"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/locate_us"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="100dp"
+                android:layout_alignTop="@+id/blood_notification"
+                android:src="@drawable/left_button"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/locate_us"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="serif"
+                android:text="Locate Us"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

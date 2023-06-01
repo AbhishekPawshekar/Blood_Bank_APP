@@ -1,0 +1,133 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/des_background"
+    >
+<include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/textViewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="serif"
+        android:textColor="@color/light_red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:text="Blood Bank Contact numbers" />
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="70dp"
+    android:layout_below="@+id/textViewtitle"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewshradha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:text="Shradha Raundal"
+        android:layout_centerVertical="true"
+        android:textColor="@color/light_red"
+      />
+
+    <Button
+        android:id="@+id/buttonshradha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_centerVertical="true"
+   android:layout_alignParentRight="true"
+        android:text="call" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:layout_below="@+id/textViewtitle">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewskanchan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/light_red"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginRight="100dp"
+        android:textSize="16dp"
+        android:fontFamily="serif"
+        android:text="Kanchan khapare" />
+
+    <Button
+        android:id="@+id/buttonkanchan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="23dp"
+        android:text="Call" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="290dp"
+        android:layout_below="@+id/textViewtitle">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textyogesh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/light_red"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginRight="100dp"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:text="Yogesh Kuwar" />
+
+            <Button
+                android:id="@+id/buttonyogesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="23dp"
+                android:text="Call" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="EMERGENCY BLOOD DONORS CONTACT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

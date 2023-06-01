@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/des_background"
+    tools:context=".Discription">
+
+<include layout="@layout/toolbar"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:fillViewport="true"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/des4"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/light_red"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="       In developing countries most blood donors are unpaid volunteers who do so for the good of the community.They may also donate blood for their own future use or to fulfil the deficit created due to the use of previously stored blood.Donating blood is a safe process. A sterile needle is used only once for each donor and then discarded.\n
+The actual blood donation typically takes less than 10-12 minutes. The entire process, from the time you arrive to the time you leave, takes about an hour and 15 min.The average adult has about 10 units of blood in his body. Roughly 1 unit(300ml) is given during a donation.All donated blood is tested for HIV, hepatitis B and C, syphilis and other infectious diseases before it can be transfused to patients.In India blood donation is voluntary and unpaid, this is normal in developing countries as demanded by WHO.
+"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/des5"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:textColor="@color/light_red"
+                    android:text="Some statistics:According to official statistics, our nation requires 4crore units of blood and only 40lakh units are actually available.
+A global statistic states that more than 38,000 blood donations are needed everyday in order to balance the deficit.
+As for blood components, about 30 million components are transfused each year, the average red blood cell transfusion is approximately 3 pints.
+The most common blood group required and present in 40 percent of the population is type O.
+One of the most uncommon blood groups with only 7 percent of people in India having this blood type is the O-negative blood group.
+People with this blood group are universal donors as their blood can be given to people of all blood types. In certain cases where the persons blood type is unknown or in cases of new born, type O negative is needed.
+As for the AB blood type, they are universal donors of plasma (pale yellow part of blood in which the blood cells are suspended) and are vital in cases of emergencies,
+ newborns and for patients requiring massive transfusion.
+"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/light_red"
+                    android:gravity="center"
+                    android:text="The blood fact in India\n\n
+
+Despite being a country with a population of 1.2 billion, India faces a blood shortage of 3 million units. The problem can be addressed if an additional two percent of Indians donated blood, health experts say.
+According to a 2012 World Health Organisation (WHO) report, only nine million units are collected annually, while the need is for 12 million units.
+Delhi NCR alone faces a shortage of 100,000 units per year.
+The shelf-life of donated blood is 35 to 42 days. There is a constant need to replenish stocks in our blood banks. The problem could be addressed if only two percent more Indians donated blood, Anju Verma, chief medical officer, Rotary Blood Bank, told us.
+            Reports also suggest that only one percent of eligible donors do so everyday
+            Healthy donors are between the age of 18 to 65 years. So they should come out and donate blood, added Verma."/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/des2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:textColor="@color/light_red"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Statistics show that there are 234 million major operations in India, 63 million trauma-induced surgeries, 31 million cancer-related procedures and 10 million pregnancy related complications which require blood transfusions.Apart from these there are also disorders like sickle cell anemia, thalassemia and haemophilia that require repeated blood transfusions.
+Importantly, the need is not only for blood but for safe blood and WHO has Safe blood for saving mothers as its theme for World Blood Donors Day on June 14\n.
+Safe blood includes all that is available for transfusion. That which is unsafe should not be available for transfusion. The donated blood should ideally be checked for HIV, HBV (hepatitis B virus), HCV (hepatitis C virus) and other blood transmitted diseases prior to being made available for transfusion, Nochiketa Mohanty, country programme manager, AIDS Healthcare Foundation, told us\n.
+            Hence, safe blood can be collected with proper tests, quality management and an experienced and efficient medical team at a blood bank.
+            Blood banks are empanelled by the government and all authorised centres should follow blood safety guidelines as listed by the National Aids Control Organisation (NACO). The list of empanelled blood banks should be made available to the public through the media on a periodic basis, Monhanty added\n.
+            The issue of blood shortage is also due to lack of voluntary donors, though the figure has been rising, particularly in states such as West Bengal, Maharashtra, Tamil Nadu, Gujarat, Chandigarh and Himachal Pradesh.
+            There are still states lagging because collections from individual Voluntary Blood Donation (VBD) is still very low and the majority of the blood donors are family VBD and replacement blood donors. Awareness of VBD needs to be increased and retained for a sustainable blood supply in such states, added Mohanty\n.
+            Echoing this, Anita Suryanarayan, chief of lab services, Lister Metropolis Pvt. Ltd said: As there is deficiency of blood during an emergency, the need arises to rely on professional donors who donate blood on a regular basis for money\n.
+            In this case, safety becomes an important question as they might not have a suitable healt condition for to donate.
+            This indicates that a rise is needed in the number of voluntary donors who refrain from donating blood because of their
+            lack of awareness and ignorance, Suryanarayan told us.\n
+
+
+
+
+
+
+            \nFacts about the blood donation process\n
+
+            Donating blood is a safe process. A sterile needle is used only once for each donor and then discarded."/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/des1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/light_red"
+                    android:gravity="center"
+                    android:text="and mini-physical, donation and refreshments.
+Every blood donor is given a mini-physical, checking the donor's temperature, blood pressure, pulse and hemoglobin to ensure it is safe for the donor to give blood.
+The actual blood donation typically takes less than 10-12 minutes. The entire process, from the time you arrive to the time you leave, takes about an hour and 15 min.
+The average adult has about 10 units of blood in his body. Roughly 1 unit is given during a donation.
+A healthy donor may donate red blood cells every 56 days, or double red cells every 112 days.9
+All donated blood is tested for HIV, hepatitis B and C, syphilis and other infectious diseases before it can be transfused to
+A healthy donor may donate platelets as few as 7 days apart, but a maximum of 24 times a year.
+
+
+
+
+Facts about donors
+The number one reason donors say they give blood is because they want to help others.
+One donation can help save the lives of up to three people.
+If you began donating blood at age 18 and donated every 90 days until you reached 60, you would have donated 30 gallons of blood"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/des3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/light_red"
+                    android:gravity="center"
+                    android:text="Type O-negative blood is needed in emergencies before the patient's blood type is known and with newborns who need blood.Only 7 percent of people in India have O-negative blood type. O-negative blood type donors are universal donors as their blood can be given to people of all blood types.
+14th World Blood Donors Day celebrates. On October 1st National Blood Donation Day celebrates in India
+
+
+
+Who can give blood
+Most people can give blood. You can give blood if you:
+ If you are fit and healthy
+weight over 7 stone 12 lbs or 50kg
+re aged between 17 and 66 (or 70 if you have given blood before) are over 70 and have given blood in the last two year
+
+ How often can I give blood[For men]?
+Men can give blood every 12 weeks and women can give blood every 16 weeks.
+Check you are able to give blood
+ How often can I give blood[for women]?
+If you are a woman under 20 and you weigh under 10st 3lb or 65kg or are under 5' 6 or 168cm tall you will need to estimate your blood volume to see if you can give blood.
+
+           * RULES
+
+           * The blood cant give by you if you have done this thing:
+
+           * receiving treatment
+           * taking medication
+           * tattoos
+           * pregnancy
+           * illness
+           * cancer
+           * received blood, blood products or organs"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>
